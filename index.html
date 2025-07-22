@@ -22,18 +22,21 @@
       border-bottom: 2px solid #ccc;
       padding-bottom: 5px;
     }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
+    .paper {
+      margin-bottom: 25px;
     }
-    li {
-      margin-bottom: 10px;
+    .paper-title {
+      font-weight: bold;
     }
-    a {
+    .paper-authors {
+      font-style: italic;
+      margin-bottom: 3px;
+    }
+    .paper-link a {
       color: #007acc;
       text-decoration: none;
     }
-    a:hover {
+    .paper-link a:hover {
       text-decoration: underline;
     }
   </style>
@@ -43,22 +46,21 @@
   <p>PhD Student in Telecommunications – Universidad Autónoma de Madrid</p>
 
   <h2>Publications – 2025</h2>
-  <ul>
-    <li>
-      <strong>[Conference]</strong>
-      <a href="papers/bgp-paper.pdf" target="_blank">
-        Hybrid Feature Selection and Explainable ML for BGP Anomaly Detection
-      </a>
-      <br />
-      <em>4th International Conference on Computing, IoT and Data Analytics (ICCIDA), July 2025</em>
-    </li>
-  </ul>
 
-  <h2>Publications – 2024</h2>
-  <ul>
-    <li>
-      (To be added)
-    </li>
-  </ul>
+  <div class="paper">
+    <div class="paper-title">Real-Time Anomaly Detection in BGP: Challenges,IPv6 Considerations, and Machine Learning Opportunities</div>
+    <div class="paper-authors">Shadi Motaali, Jorge E. López de Vergara Méndez, Luis De Pedro</div>
+    <div class="paper-venue">Proceedings of the PhD Symposium of the 11th IEEE International Conference on Network Softwarization, June 2025</div>
+    <div class="paper-link"><a href="papers/bgp-paper.pdf" target="_blank">View Paper (PDF)</a></div>
+  </div>
+
+  <div class="paper">
+  <div class="paper-title">Hybrid Feature Selection and Explainable Machine Learning for BGP Anomaly Detection</div>
+  <div class="paper-authors">Shadi Motaali, Jorge E. López de Vergara Méndez, Luis De Pedro</div>
+  <div class="paper-venue">accepted for its publication in Proceedings of the 4th International Conference on Computing, IoT and Data Analytics, July 2025</div>
+  <div class="paper-link"><a href="papers/ddos-architecture.pdf" target="_blank">View Paper (PDF)</a></div>
+</div>
+
+  </div>
 </body>
 </html>
